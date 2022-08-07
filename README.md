@@ -1,7 +1,7 @@
 # Source code for Toward DDA with audio cues by GPR in a FPS
 
-Files here are data and source code of the following paper. For relevant gameplay video, see
-https://github.com/Lxx007/research-on-audio-cue
+Files here are data and source code of the following paper. For relevant gameplay video, see https://tinyurl.com/FPSaudioCues
+
 
 Xiaoxu Li, Marcel Wira and Ruck Thawonmas, "Toward Dynamic Difficulty Adjustment with Audio Cues by Gaussian Process Regression in a First-Person Shooter," the 21st International Federation for Information Processing - International Conference on Entertainment Computing (IFIP-ICEC 2022), Bremen, Germany, Nov. 1-3, 2022.
 
