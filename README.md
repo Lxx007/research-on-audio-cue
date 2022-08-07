@@ -5,13 +5,13 @@ Files here are data and source code of the following paper. For relevant gamepla
 
 Xiaoxu Li, Marcel Wira and Ruck Thawonmas, "Toward Dynamic Difficulty Adjustment with Audio Cues by Gaussian Process Regression in a First-Person Shooter," the 21st International Federation for Information Processing - International Conference on Entertainment Computing (IFIP-ICEC 2022), Bremen, Germany, Nov. 1-3, 2022.
 
-DataBase.py is our data after collecting from our FPS game, which you can view the videos from the above link.
+DataBase.py is our data after collecting from our FPS game, which you can view the videos from the link shown above.
 Based on the informed consent, data shared here have already completed the data desensitization.
 Currently, we only open-sourced our data with game completion time which is used in our paper.
 
 Based on the data provided here, we can simply calculate the mean value of time at each level.
 At the same time, since the player is playing our game for the first time, we think that the player needs to be familiar with our game when he plays the first level. Therefore, in the paper, we mainly show the performance of all players after removing the first level.
-![MeanTimeUsed](https://user-images.githubusercontent.com/30626090/183306904-9e59501a-e63d-44ba-86a1-75901048f142.png)
+![Figure 1](https://user-images.githubusercontent.com/30626090/183309034-8b153983-7731-49ff-9e46-456abec1ce52.png)
 
 In the DataBase.py file, PlayerID means every player's ID, PlayerTime is every player's completion time with 5 levels, player_seq is the order in which the levels are played and Level is our level's audio cue volume setting detail corresponding to our Level Num which is the index of this list.
 Based on simple statistics, we can draw the above conclusions.
