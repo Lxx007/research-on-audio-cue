@@ -16,6 +16,7 @@ At the same time, since the player is playing our game for the first time, we th
 
 In the DataBase.py file, PlayerID means every player's ID, PlayerTime is every player's completion time with 5 levels, player_seq is the order in which the levels are played and Level is our level's audio cue volume setting corresponding to our Level Num which is the index of this list.
 Based on simple statistics, we can draw the above conclusions.
+KernelFunction.py is our kernel library.
 
 CodeOnExperiment.py explain our GPR process mentioned in the paper.
 After execute this python file, we will get 8 output(savedfiles)
