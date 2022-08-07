@@ -1,4 +1,5 @@
-# To be continue
+# Source code for Toward DDA with audio cues by GPR in a FPS
+
 Files here are data and source code of the following paper. For relevant gameplay video, see
 https://github.com/Lxx007/research-on-audio-cue
 -----------
