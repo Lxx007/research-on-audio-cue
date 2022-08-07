@@ -2,7 +2,7 @@
 
 Files here are data and source code of the following paper. For relevant gameplay video, see
 https://github.com/Lxx007/research-on-audio-cue
------------
+
 Xiaoxu Li, Marcel Wira and Ruck Thawonmas, "Toward Dynamic Difficulty Adjustment with Audio Cues by Gaussian Process Regression in a First-Person Shooter," the 21st International Federation for Information Processing - International Conference on Entertainment Computing (IFIP-ICEC 2022), Bremen, Germany, Nov. 1-3, 2022.
 
 DataBase.py is our data after collecting from our FPS game, which you can view the videos from the above link.
