@@ -10,7 +10,7 @@ Based on the informed consent, data shared here have already completed the data 
 Currently, we only open-sourced our data with game completion time which is used in our paper.
 
 Based on the data provided here, we can simply calculate the mean value of time at each level.
-At the same time, since the player is playing our game for the first time, we think that the player needs to be familiar with our game when he plays the first level. Therefore, in the paper, we mainly show the performance of all players after removing the first level.
+At the same time, since the player is playing our game for the first time, we think that the player needs to be familiar with our game when he plays the first level. Therefore, in our paper, we focus on the performance of all players after removing the first level.
 
 ![Figure 1](https://user-images.githubusercontent.com/30626090/183309034-8b153983-7731-49ff-9e46-456abec1ce52.png)
 
