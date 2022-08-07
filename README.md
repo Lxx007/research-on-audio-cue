@@ -14,7 +14,7 @@ At the same time, since the player is playing our game for the first time, we th
 
 ![Figure 1](https://user-images.githubusercontent.com/30626090/183309034-8b153983-7731-49ff-9e46-456abec1ce52.png)
 
-In the DataBase.py file, PlayerID means every player's ID, PlayerTime is every player's completion time with 5 levels, player_seq is the order in which the levels are played and Level is our level's audio cue volume setting corresponding to our Level Num which is the index of this list.
+In the DataBase.py file, PlayerID means every player's ID, PlayerTime is every player's completion time with 5 levels, player_seq is the order in which the levels are played by each player, and Level is our level's audio cue volume setting corresponding to our Level Num which is the index of this list.
 Based on simple statistics, we can draw the above conclusions.
 KernelFunction.py is our kernel library.
 
