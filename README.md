@@ -41,7 +41,7 @@ Output example fold contains one set of sample output.
 Since we use 4-fold cross validation, 0 1 2 3 means each fold Num.
 File name Trend_X_Y_Z.npy means that this is the prediction of GPR with the kernel Y hyperparameter length scale Z for (X+1)'s fold.
 In each Trend_X_Y_Z.npy file, we have 10 pieces of data.
-For each piece of data, it is a data sequence with 50 predictions by GPR. And when the result R is smaller than the threshold = 1, for the next prediction we will skip and show the R. You can find more details in our paper.
+For each piece of data, it is a data sequence with 51 predictions by GPR. And when the result R is smaller than the threshold = 1, for the next prediction we will skip and show the R. You can find more details in our paper.
 For Slope_X_Y_Z.npy, this is a by-product of our experiment, we will not explain it here.
 
 After collecting Trend_X_Y_Z.npy, it is not hard for us to calculate the performance of our algorithm.
