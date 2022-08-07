@@ -4,16 +4,16 @@ import math
 import random
 import matplotlib.pyplot as plt
 import RawData.DataBase as db
-import KernalFuntion
+import KernelFuntion
 from datetime import datetime
 from scipy import stats
 
 time_start_p = datetime.now()
-def weight_calculation (input_x, output_y, kernal_matrix, observation_variance, mean_value):
-    i_matrix_length = len(kernal_matrix)
+def weight_calculation (input_x, output_y, kernel_matrix, observation_variance, mean_value):
+    i_matrix_length = len(kernel_matrix)
     identity_matrix = np.eye(i_matrix_length)
-    weight_matrix = np.matmul(np.linalg.inv(kernal_matrix + (observation_variance * identity_matrix)) , (output_y - mean_value))
-    inv_matrix = np.linalg.inv(kernal_matrix + (observation_variance * identity_matrix))
+    weight_matrix = np.matmul(np.linalg.inv(kernel_matrix + (observation_variance * identity_matrix)) , (output_y - mean_value))
+    inv_matrix = np.linalg.inv(kernel_matrix + (observation_variance * identity_matrix))
     return weight_matrix, inv_matrix
 
 # Hyperparameter Choice
@@ -189,7 +189,7 @@ for n_loop in loop_night:
                 # Kernel Update RBF
                 print("Kernel Update")
                 #Weight, inv = weight_calculation (x_train_n, y_train_n, K_function, observation_variance = covariance, mean_value = mean_value_n)
-                K_function_P = KernalFuntion.RBF_Self_K(P_Level_Seq, P_Level_Seq, signal_variance = signal_variance, length_scale = ls)
+                K_function_P = KernelFuntion.RBF_Self_K(P_Level_Seq, P_Level_Seq, signal_variance = signal_variance, length_scale = ls)
                 Weight, inv = weight_calculation (P_Level_Seq, P_Performance_Seq, K_function_P, observation_variance = covariance, mean_value = P_Mean_Seq)
                 # recod_p
                 try:
@@ -200,8 +200,8 @@ for n_loop in loop_night:
                 for j in x_all:
                     # Input level
                     x_t = [[j]]
-                    # Kernal Function
-                    New_K = KernalFuntion.RBF_Self_K(x_t, P_Level_Seq, signal_variance = signal_variance, length_scale = ls)
+                    # Kernel Function
+                    New_K = KernelFuntion.RBF_Self_K(x_t, P_Level_Seq, signal_variance = signal_variance, length_scale = ls)
                     # Mean Value
                     New_M = mean_v[j]
                     # Prediction
