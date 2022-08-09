@@ -49,7 +49,7 @@ With simple statistics, we can draw the follwing conclusions.
 
 ![400](https://user-images.githubusercontent.com/30626090/183308103-55bcd49b-8ba0-4a13-9d6b-a9aa713e6488.png)
 
-Because our algorithm has some random properties, it is difficult to precisely restore the above picture, but after each code run, the trend of the data should be similar to the above picture.
+Because our algorithm has some random properties, it is difficult to precisely restore the above figure, but after each code run, the trend of the data should be similar to the above figure.
 
 Regarding baselines, form line 40 to line 47 on CodeOnExperiment.py, it is not hard to create baselines with Multi Polynomial Function provided by numpy. With these, and parameter mentioned on the paper, it is easy to reproduce our baselines.
 
