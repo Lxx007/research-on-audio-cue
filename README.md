@@ -18,7 +18,7 @@ In the DataBase.py file, PlayerID means every player's ID, PlayerTime is every p
 Based on simple statistics, we can draw the above conclusions.
 
 CodeOnExperiment.py explain our GPR process mentioned in the paper, and KernelFunction.py is our kernel library.
-After execute this python file, we will get 8 output(savedfiles)
+After executing this python file, we will get 8 output(savedfiles)
 These files should be named as:
 
 Trend_0_RBF_7.npy
