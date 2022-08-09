@@ -53,6 +53,6 @@ Because our algorithm has some random properties, it is difficult to precisely r
 
 Regarding baselines, form line 40 to line 47 on CodeOnExperiment.py, it is not hard to create baselines with Multi Polynomial Function provided by numpy. With these, and parameter mentioned on the paper, it is easy to reproduce our baselines.
 
-Finally, based on the process mentioned above. After execute our algorithms with 10 times and calculated the means value. We will get the following table
+Finally, based on the process mentioned above. After executing our algorithms with 10 times and calculated the mean value, we will get the following table
 
 ![image](https://user-images.githubusercontent.com/30626090/183308808-7b4f0b75-d60d-444c-baf1-eece59750452.png)
