@@ -37,7 +37,7 @@ Slope_2_RBF_7.npy
 
 Slope_3_RBF_7.npy
 
-Output example fold contains one set of sample output.
+The SmapleOutput folder contains one set of sample output.
 Since we use 4-fold cross validation, 0 1 2 3 means each fold Num.
 File name Trend_X_Y_Z.npy means that this is the prediction of GPR with the kernel Y hyperparameter length scale Z for (X+1)'s fold.
 In each Trend_X_Y_Z.npy file, we have 10 pieces of data.
